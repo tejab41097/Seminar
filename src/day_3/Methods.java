@@ -1,5 +1,7 @@
 package day_3;
 
+import day_4.Modifier;
+
 public class Methods {
 
 	public static void main(String[] args) {
@@ -14,6 +16,12 @@ public class Methods {
 		int d = add(a,b);
 		System.out.println("d: "+ d);
 
+		//Modifier Example for public variable from Day-4
+		Modifier modifier = new Modifier();
+//		System.out.println(modifier.defaultVariable);
+		System.out.println(modifier.publicVariable);
+//		System.out.println(modifier.privateVariable);
+//		System.out.println(modifier.protectedVariable);
 	}
 	
 	//scope static/nonstatic return type name(parameters)
